@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const downloadBtn = document.getElementById('downloadResume');
     
     downloadBtn.addEventListener('click', function() {
-        const resumeUrl = 'https://drive.google.com/file/d/1Qp5aUPfTK_GDLp177RXsVU1dDY28NU4R/view?usp=sharing';
+        const resumeUrl = 'https://drive.google.com/file/d/1mvzUnig8s8ta748f01HaeEu1mZnNkWYV/view?usp=sharing';
         window.open(resumeUrl, '_blank');
     });
 
@@ -17,22 +17,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const experiences = {
         1: {
-            title: "Redhat, Pune",
-            position: "Senior Software Engineer",
+            title: "Red Hat India Pvt Ltd., Pune",
+            position: "Principal Software Engineer (Promoted from Senior Software Engineer)",
             date: "August 2021 - PRESENT",
-            details: "<ul><li>Develop and Maintain APIs in Go related to subscription management.</li><li>Design and implement auto-registration systems for cloud systems.</li><li>Collaborate with cross-functional teams to deliver high-quality software solutions.</li></ul>"
+            details: "<ul><li>Lead the design and implementation of cloud account verification services using Golang, Kafka, PostgreSQL, AWS, Docker, and Kubernetes.</li><li>Architected a fault-tolerant event processing pipeline using Kafka consumer groups with exactly-once processing semantics.</li><li>Manage and mentor a team of two engineers, driving project delivery across multiple initiatives.</li><li>Own the architecture and implementation of Auto Registration v2.</li><li>Design and maintain scalable REST APIs in Golang for enterprise subscription management with Helm-based deployments.</li></ul>"
         },
         2: {
             title: "Knorex, Pune",
-            position: "Data Engineer II",
-            date: "Jan 2020 - July 2021",
-            details: "<ul><li>Developed APIs and Data Pipelines for end-to-end data processing.</li><li>Achieved exceptional API response times of under 10ms, enhancing user experience.</li><li>Utilized technologies such as Golang, Java, Apache Beam, Redis, and Postgres.</li></ul>"
+            position: "Data Engineer - II (Promoted from Data Engineer)",
+            date: "January 2020 - July 2021",
+            details: "<ul><li>Developed an end-to-end Cookie Matching Service with API response times below 10 milliseconds.</li><li>Built scalable data ingestion pipelines using Apache Beam, Pub/Sub, and PostgreSQL.</li><li>Designed and implemented backend APIs and distributed data processing workflows for advertising technology platforms.</li><li>Collaborated with stakeholders to improve system reliability, performance, and scalability.</li></ul>"
         },
         3: {
             title: "NRI Fintech, Kolkata",
-            position: "Associate Software Developer",
-            date: "August 2018 - January 2021",
-            details: "<ul><li>Developed and maintained APIs using Spring Boot, Maven, and Hibernate.</li><li>Collaborated with the team to deliver APIs aligned with project requirements.</li><li>Gained extensive experience in financial technology software development.</li></ul>"
+            position: "Associate Software Engineer",
+            date: "August 2018 - January 2020",
+            details: "<ul><li>Developed and maintained REST APIs for fintech applications using Spring Boot and Hibernate.</li><li>Worked directly with clients to gather requirements and deliver business-critical functionality.</li><li>Implemented SonarQube rules and code quality practices to improve maintainability.</li><li>Contributed to multiple financial services projects.</li></ul>"
         }
     };
 
